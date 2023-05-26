@@ -1,0 +1,37 @@
+.image-jtp,body{
+    text-align: center;
+}
+
+.list-items{
+    display: inline-block;
+    text-align: left;
+}
+
+button{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    border-radius: 50%/100%;
+    border: none;
+    padding: 1.5%;
+    text-align: center;
+    font-size: 75%;
+}
+
+a{
+    text-decoration: none;
+}
+
+body, 
+.button{
+    font-family: 'Outfit', sans-serif;
+
+}
+
+.subheader{
+    font-weight: bold;
+}
+
+.table-link{
+    color:white;
+}
