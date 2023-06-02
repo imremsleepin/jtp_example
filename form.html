@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Page</title>
+    <link rel="icon" type="image/x-icon" href="images\favicon.jpg">
+    <link rel="stylesheet" type="text/css" href="form-styles.css">
+</head>
+<body>
+    <h1>Contact Form</h1>
+
+    <form action=""method="post">
+        <div class="textspace"><label for="name"><span>Name: </span><input type="text" id="name" placeholder="Enter Your Name" required></label></div>
+        <div class="textspace"><label for="username"><span>Username: </span class="label"><input type="text" id="username" placeholder="Enter Your Username" required></label></div>
+        <div class="textspace"><label for="password"><span>Password: </span class="label"><input type="password" id="password" placeholder="Enter Your Password" required></label></div>
+        <div class="textspace"><label for="password"><span>Re-type Password: </span class="label"><input type="password" id="password" placeholder="Enter Your Password" required></label></div>
+        <div class="textspace"><label for="phone number"><span>Name: </span class="label"><input type="text" id="phone-number" placeholder="Enter Your Address" required></label></div>
+        <div class="textspace"><label for="email"><span>Email: </span class="label"><input type="email" id="email" placeholder="Enter Your Email Address" required></label></div>
+        
+        <div class="textspace"><label for="gender"><span>Gender:</span></label></div>
+        <label for="gender">Male<input type="radio" name="gender" id="gender" required></label>
+        <label for="gender">Female<input type="radio" name="gender" id="gender" required></label>
+
+        <div class="textspace"><label for="Techie Skills"><span>Techie Skills: </span></label></div>
+        <label for="email">HTML<input type="checkbox" id="skill" required></label>
+        <label for="email">CSS<input type="checkbox" id="skill" required></label>
+        <label for="email">Javascript<input type="checkbox" id="skill" required></label>
+
+        <div class="textspace"><label for="college"><span>College: </span></label></div>
+        <select>
+            <option value="University of Florida">University of Florida</option>
+            <option value="University of Central Florida">University of Central Florida</option>
+        </select>
+
+        <div><button class="button">Submit</button></div>
+
+    </form>
+    <p>Do you want to go back to the <a href="index.html">Home Page?</a></p>
+</body>
+</html>

@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+body{
+    font: Halant;
+}
+
+
+span{
+    font-weight: bold; 
+    display: inline-block;
+    width: 50%;
+
+}
+
+.textspace{ 
+    display: inline-block;
+    width: 50%;
+    padding: 1%;
+}
+
+button{
+    background-color:blue;
+    color:white;
+    cursor:pointer;
+    /*border-radius: 50%/100%;*/
+    border: none;
+
+    padding: 1% 2% 1% 2%;
+    text-align: right;
+    font-size: 75%;
+}
+
+form{
+    margin: 0 auto;
+    width: 50%;
+}
